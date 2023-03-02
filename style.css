@@ -1,0 +1,204 @@
+.container {
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  height: 35px;
+  padding: 0 20px;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  display: block;
+  padding: 10px;
+  color: #f6f5f8;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  background-color: #555;
+}
+
+/* Apply some basic styles to the entire page */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style the header and navigation bar */
+header {
+  background-color: #333;
+  color: #ffffff;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+/*
+.hero {
+  background-color: #555;
+  background-size: cover;
+  color: #f5f4f4;
+  padding: 10px;
+  border: 0.2px solid white;
+  text-align: center;
+}
+*/
+
+.movies {
+  padding: 25px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(247, 53, 5);
+}
+
+.movies h2 {
+  padding-bottom: 14px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+.movie-list li {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.movie-list li:last-child {
+  margin-right: 0;
+}
+
+.movie-list a {
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+
+.movie-list img {
+  height: 300px;
+  width: 230px;
+}
+
+.movie-list h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.movie-list p {
+  font-size: 14px;
+  margin-top:8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.actors {
+  background-color: #ede7e7;
+  padding: 25px;
+  border: 1px solid rgb(253, 5, 195);
+}
+.actors h2 {
+  padding-bottom: 14px;
+}
+
+.actor-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.actor-list li {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.actor-list li:last-child {
+  margin-right: 0;
+}
+
+.actor-list a {
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+
+.actor-list img {
+  height: 300px;
+  width: 230px;
+}
+
+.actor-list h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border: 1px solid rgb(5, 199, 253);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  color: #0c8dd8;
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  color: rgb(75, 26, 201);
+}
+
+.fa {
+  font-size: 26px;
+}
+.fab {
+  font-size: 28px;
+}
+p {
+  text-align: center;
+  padding: 8px;
+}
